@@ -14,16 +14,19 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- Quarkus version is old - should upgrade -->
         <quarkus-plugin.version>1.7.0.Final</quarkus-plugin.version>
         <quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
+        <!-- Quarkus version is old - should upgrade -->
         <quarkus.platform.version>1.7.0.Final</quarkus.platform.version>
         <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
         <!-- added -->
         <awaitility.version>4.0.2</awaitility.version>
         <failsafe-plugin.version>3.0.0-M4</failsafe-plugin.version>
         <testcontainers.version>1.14.3</testcontainers.version>
-        <kafka-clients.version>2.6.0</kafka-clients.version>
+        <!-- Kafka client 2.6.0 has security issue - so increased to 2.7.2 -->
+        <kafka-clients.version>2.7.2</kafka-clients.version>
         <!-- project versions -->
         <cafe-domain.version>2.7.0</cafe-domain.version>
         <cafe-test-utils.version>2.7.0</cafe-test-utils.version>

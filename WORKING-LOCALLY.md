@@ -15,8 +15,10 @@ __NOTE__: You have to install the domain objects to run the services and the tes
 By default Quarkus listensn on port 5005 for a debugger.  You can change this by appending the flag, "-Ddebug<<PORT NUMBER>>" as in the below examples.  The parameter is optional, of course
 
 ### Web
+```shell
 export KAFKA_BOOTSTRAP_URLS=localhost:9092 STREAM_URL=http://localhost:8080/dashboard/stream CORS_ORIGINS=http://localhost:8080
 ./mvnw clean compile quarkus:dev
+```
 
 ### Core
 ```shell

@@ -23,7 +23,7 @@ docker run -i --network="host" -e MONGO_DB=${MONGO_DB} -e MONGO_URL=${MONGO_URL}
 
 ```
 
-## Local deveplomnent steps 
+## Local development steps 
 * uncomment lines 
 ```
 #quarkus.container-image.build=true
